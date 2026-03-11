@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Blog to Podcast",
+  "version": "1.0.0",
+  "description": "Convert any blog page into a podcast episode with AI-generated audio.",
+  "permissions": ["sidePanel", "activeTab", "tabs", "storage"],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Blog to Podcast",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
